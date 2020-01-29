@@ -9,31 +9,31 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{asset('assets/css/open-iconic-bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/animate.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/frontend/css/open-iconic-bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/frontend/css/animate.css')}}">
 
-    <link rel="stylesheet" href="{{asset('assets/css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/owl.theme.default.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/frontend/css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/frontend/css/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/frontend/css/magnific-popup.css')}}">
 
-    <link rel="stylesheet" href="{{asset('assets/css/aos.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/frontend/css/aos.css')}}">
 
-    <link rel="stylesheet" href="{{asset('assets/css/ionicons.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/frontend/css/ionicons.min.css')}}">
 
-    <link rel="stylesheet" href="{{asset('assets/css/bootstrap-datepicker.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/jquery.timepicker.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/frontend/css/bootstrap-datepicker.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/frontend/css/jquery.timepicker.css')}}">
 
 
-    <link rel="stylesheet" href="{{asset('assets/css/flaticon.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/icomoon.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/frontend/css/flaticon.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/frontend/css/icomoon.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/frontend/css/style.css')}}">
 </head>
 
 <body>
 
     @include('layouts.nav')
 
-    <div class="hero-wrap hero-bread" style="background-image: url('assets/images/bg_6.jpg');">
+    <div class="hero-wrap hero-bread" style="background-image: url('assets/frontend/images/bg_6.jpg');">
         <div class="container">
             <div class="row no-gutters slider-text align-items-center justify-content-center">
                 <div class="col-md-9 ftco-animate text-center">
@@ -214,7 +214,7 @@
                 <div class="col-sm col-md-6 col-lg ftco-animate">
                     <div class="product">
                         <a href="#" class="img-prod"><img class="img-fluid"
-                                src="{{asset('assets/images/product-1.jpg')}}" alt="Colorlib Template"></a>
+                                src="{{asset('assets/frontend/images/product-1.jpg')}}" alt="Colorlib Template"></a>
                         <div class="text py-3 px-3">
                             <h3><a href="#">Young Woman Wearing Dress</a></h3>
                             <div class="d-flex">
@@ -243,7 +243,7 @@
                 <div class="col-sm col-md-6 col-lg ftco-animate">
                     <div class="product">
                         <a href="#" class="img-prod"><img class="img-fluid"
-                                src="{{asset('assets/images/product-2.jpg')}}" alt="Colorlib Template"></a>
+                                src="{{asset('assets/frontend/images/product-2.jpg')}}" alt="Colorlib Template"></a>
                         <div class="text py-3 px-3">
                             <h3><a href="#">Young Woman Wearing Dress</a></h3>
                             <div class="d-flex">
@@ -272,7 +272,7 @@
                 <div class="col-sm col-md-6 col-lg ftco-animate">
                     <div class="product">
                         <a href="#" class="img-prod"><img class="img-fluid"
-                                src="{{asset('assets/images/product-3.jpg')}}" alt="Colorlib Template"></a>
+                                src="{{asset('assets/frontend/images/product-3.jpg')}}" alt="Colorlib Template"></a>
                         <div class="text py-3 px-3">
                             <h3><a href="#">Young Woman Wearing Dress</a></h3>
                             <div class="d-flex">
@@ -301,7 +301,7 @@
                 <div class="col-sm col-md-6 col-lg ftco-animate">
                     <div class="product">
                         <a href="#" class="img-prod"><img class="img-fluid"
-                                src="{{asset('assets/images/product-4.jpg')}}" alt="Colorlib Template"></a>
+                                src="{{asset('assets/frontend/images/product-4.jpg')}}" alt="Colorlib Template"></a>
                         <div class="text py-3 px-3">
                             <h3><a href="#">Young Woman Wearing Dress</a></h3>
                             <div class="d-flex">
@@ -344,23 +344,23 @@
                 stroke="#F96D00" /></svg></div>
 
 
-    <script src="{{asset('assets/js/jquery.min.js')}}"></script>
-    <script src="{{asset('assets/js/jquery-migrate-3.0.1.min.js')}}"></script>
-    <script src="{{asset('assets/js/popper.min.js')}}"></script>
-    <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
-    <script src="{{asset('assets/js/jquery.easing.1.3.js')}}"></script>
-    <script src="{{asset('assets/js/jquery.waypoints.min.js')}}"></script>
-    <script src="{{asset('assets/js/jquery.stellar.min.js')}}"></script>
-    <script src="{{asset('assets/js/owl.carousel.min.js')}}"></script>
-    <script src="{{asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
-    <script src="{{asset('assets/js/aos.js')}}"></script>
-    <script src="{{asset('assets/js/jquery.animateNumber.min.js')}}"></script>
-    <script src="{{asset('assets/js/bootstrap-datepicker.js')}}"></script>
-    <script src="{{asset('assets/js/scrollax.min.js')}}"></script>
+    <script src="{{asset('assets/frontend/js/jquery.min.js')}}"></script>
+    <script src="{{asset('assets/frontend/js/jquery-migrate-3.0.1.min.js')}}"></script>
+    <script src="{{asset('assets/frontend/js/popper.min.js')}}"></script>
+    <script src="{{asset('assets/frontend/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('assets/frontend/js/jquery.easing.1.3.js')}}"></script>
+    <script src="{{asset('assets/frontend/js/jquery.waypoints.min.js')}}"></script>
+    <script src="{{asset('assets/frontend/js/jquery.stellar.min.js')}}"></script>
+    <script src="{{asset('assets/frontend/js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('assets/frontend/js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{asset('assets/frontend/js/aos.js')}}"></script>
+    <script src="{{asset('assets/frontend/js/jquery.animateNumber.min.js')}}"></script>
+    <script src="{{asset('assets/frontend/js/bootstrap-datepicker.js')}}"></script>
+    <script src="{{asset('assets/frontend/js/scrollax.min.js')}}"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false">
     </script>
-    <script src="{{asset('assets/js/google-map.js')}}"></script>
-    <script src="{{asset('assets/js/main.js')}}"></script>
+    <script src="{{asset('assets/frontend/js/google-map.js')}}"></script>
+    <script src="{{asset('assets/frontend/js/main.js')}}"></script>
 
     <script>
         $(document).ready(function () {

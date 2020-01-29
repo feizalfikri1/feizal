@@ -11,7 +11,7 @@
 |
 */
 Route::get('/', function () {
-    return view('frontend.index');
+    return view('backend.index');
 });
 
 Route::get('/about', function () {
@@ -45,6 +45,10 @@ Route::get('/shop', function () {
 Route::get('/produk-single', function () {
     return view('frontend.produk-single');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 
