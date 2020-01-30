@@ -15,11 +15,7 @@ class CreateCategoriesTable extends Migration
     {
         Schema::create('categories', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name'); //STRING SAMA DENGAN VARCHAR
-            //JADI KITA AKAN MEMBUAT CATEGORI INI MEMILIKI ANAK KATEGORI
-            //SEHINGGA DIBUAT STRUKTUR DIMANA KATEGORI YANG MEMILIKI parent_id
-            //ADALAH KATEGORI ANAK, SEBALIKNYA JIKA KATEGORI ITU parent_id NYA NULL
-            //MAKA DIA ADALAH KATEGORI INDUK
+            $table->string('name');
             $table->unsignedBigInteger('parent_id')->nullable();
             $table->string('slug');
             $table->timestamps();

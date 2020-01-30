@@ -17,9 +17,9 @@ class CreateProductsTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('slug');
-            //ADAPUN category_id NYA NNTI AKAN MERUJUK KE TABLE categories
-            //DIMANA UNTUK SAAT INI BELUM AKAN DIBAHAS RELASI ANTAR TABLE-NYA
             $table->unsignedBigInteger('category_id');
+            $table->foreign('category_id')->references('id')
+            ->on('categories')->onDelete('cascade');
             $table->text('description')->nullable();
             $table->string('image');
             $table->integer('price');

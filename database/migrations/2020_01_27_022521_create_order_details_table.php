@@ -15,11 +15,15 @@ class CreateOrderDetailsTable extends Migration
     {
         Schema::create('order_details', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->unsignedBigInteger('order_id'); //FIELD INI AKAN MERUJUK KE TABLE orders
-            $table->unsignedBigInteger('product_id'); //FIELD INI AKAN MERUJUK KE TABLE products
-            $table->integer('price'); //INI SAMA DENGAN CUSTOMER, INFORMASI HARGA SAAT BARANG INI DIPESAN JUGA DIBUAT SALINNANNYA
+            $table->unsignedBigInteger('order_id');
+            $table->foreign('order_id')->references('id')
+            ->on('orders')->onDelete('cascade');
+            $table->unsignedBigInteger('product_id');
+            $table->foreign('product_id')->references('id')
+            ->on('products')->onDelete('cascade');
+            $table->integer('price');
             $table->integer('qty');
-            $table->integer('weight'); //JUGA BERLAKU DENGAN BERAT BARANG, UNTUK MENGHINDARI PERUBAHAN DATA PRODUK
+            $table->integer('weight');
             $table->timestamps();
         });
     }
